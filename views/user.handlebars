@@ -1,0 +1,19 @@
+<div class="card card-body">
+  <h3>Kitchen App</h3>
+  <form action="/users/submit" method="post">
+    <div class="form-group">
+      <label for="menu">Menu</label>
+      <select class="form-control" name="menu" required>
+        <option value="chicken biriyani">Chicken Biriyani</option>
+        <option value="kabab">Kabab</option>
+        <option value="Chicken Combo">Chicken Combo</option>
+        <option value="Veg Combo">Veg. Combo</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="details">quantity</label>
+      <input class="form-control" name="quantity" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

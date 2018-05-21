@@ -1,0 +1,25 @@
+<div class="card card-body">
+  <h1>Kitchen Display System</h1>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>created Till Now</th>
+        <th>Predicted</th>
+        <th>status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#kitchenArray}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{quantity}}</td>
+        <td>{{createdTillNow}}</td>
+        <td>{{predicted}}</td>
+        <td>{{status}}</td>
+      </tr>
+      {{/kitchenArray}}
+    </tbody>
+  </table>
+</div>
